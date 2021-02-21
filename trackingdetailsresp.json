@@ -1,0 +1,28 @@
+{
+    "filestatus": "complete",
+    "stafflist": [{
+        "staffname": "Jimmy",
+        "staffid": "678"
+    }, {
+        "staffname": "Ily",
+        "staffid": "987"
+    }],
+    "staffassigned": "678",
+    "noteid": "1",
+    "notetext": "forward to seomone",
+    "acn": "ACN-09878",
+    "Isnewcompany": true,
+    "PID": "PID-09877888",
+    "amount": "890",
+    "documentreview": [{
+        "docid": "09",
+        "docname": "Reg Cert"
+    }, {
+        "docid": "06",
+        "docname": "engine photo"
+    }],
+    "IsPaid": true,
+    "Isissued": true,
+    "Isclosed": false
+
+}

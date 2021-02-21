@@ -30,8 +30,27 @@ app.post("/api/search", (req, res) => {
 
 app.post("/api/trackingdetails", (req, res) => {
   let trackingDetaisReq = req.body;
-  let trackingDetails = JSON.parse(fs.readFileSync("trackingdetailsresp.json"));
-  res.send(JSON.stringify(trackingDetails));
+  let trackingDetaisResp;
+console.log(trackingDetaisReq.fileno)
+  switch (trackingDetaisReq.fileno) {
+    case "101":
+      trackingDetaisResp = JSON.parse(
+        fs.readFileSync("trackingdetailsresp101.json")
+      );
+    case "102":
+      trackingDetaisResp = JSON.parse(
+        fs.readFileSync("trackingdetailsresp102.json")
+      );
+    case "103":
+        trackingDetaisResp = JSON.parse(
+          fs.readFileSync("trackingdetailsresp103.json")
+        );
+    case "104":
+        trackingDetaisResp = JSON.parse(
+          fs.readFileSync("trackingdetailsresp104.json")
+        );
+  }
+  res.send(JSON.stringify(trackingDetaisResp));
 });
 
 const port = process.env.PORT || 5001;

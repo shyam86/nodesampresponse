@@ -1,0 +1,77 @@
+    {
+    "acn": "ACN-09878",
+    "companyname": "United Rentals",
+    "appate":"02/18/2020",
+    "Isnewcompany": false,
+    "prescreening": {
+        "completed": true,
+        "completedby": "James"
+    },
+    "mailscreening": {
+        "completed": true,
+        "completedby": "John"
+    },
+    "billingdetails": {
+        "invoicenumber": "PID-09877888",
+        "amount": "890",
+        "invoicesent": true,
+        "completed": true,
+        "completedby": "Alice"
+    },
+    "fileassignment": {
+        "fileassigned": true,
+        "assignedprocessor": "678",
+        "assignedreviewer": "678",
+        "completed": true,
+        "completedby": "Alice"
+    },
+    "dataentry": {
+        "appnumber": "78900",
+        "appstatus": "initial registration",
+        "completed": true,
+        "completedby": "Alice"
+    },
+    "paymentstatus": {
+        "paymentreceived": true,
+        "completedby": "Admin"
+    },
+    "filestatus": "complete",
+    "stafflist": [
+        {
+        "staffname": "Jimmy",
+        "staffid": "678"
+        },
+        {
+        "staffname": "Ily",
+        "staffid": "987"
+        }
+    ],
+    "documentreview": [
+        {
+        "docid": "09",
+        "docname": "Reg Cert"
+        },
+        {
+        "docid": "06",
+        "docname": "engine photo"
+        }
+    ],
+    "notes": [
+        {
+        "noteid": "1",
+        "notetext": "Document review hasn't been done prperly. please check for engine family name",
+        "action": "initial registration",
+        "createdon": "02/18/2020",
+        "sentTo": "Jimmy"
+        },
+        {
+        "noteid": "2",
+        "notetext": "Missing Engine1 details for the registration",
+        "action": "Renewal",
+        "createdon": "02/20/2020",
+        "sentTo": "Dave"
+        }
+    ],
+    "Isissued": true,
+    "Isclosed": false
+    }

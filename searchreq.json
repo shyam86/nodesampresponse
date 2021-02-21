@@ -1,7 +1,8 @@
 {
-    "fromdate": "01/04/2021",
-    "todate": "02/04/2021",
-    "appstatus": "Submitted",
-    "fileassignmentstatus": "Assigned",
-    "acn": "ACN-09878"
-}
+    "fromDate":"02/18/2020",
+    "toDate":"03/18/2020",
+    "appStatus": "Submitted",
+    "companyACN": "Sun Belt",
+    "newCompany": false,
+    "assignStatus": "yes"
+  }

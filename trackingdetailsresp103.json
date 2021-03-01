@@ -1,71 +1,85 @@
 {
-    "acn": "ACN-124510",
-    "companyname": "Sunbelt Rentals",
-    "appate":"02/20/2020",
-    "Isnewcompany": false,
-    "prescreening": {
-        "completed": true,
-        "completedby": "James"
-    },
-    "mailscreening": {
-        "completed": true,
-        "completedby": "John"
-    },
-    "billingdetails": {
-        "invoicenumber": "PID-0987788",
-        "amount": "290",
-        "invoicesent": false,
-        "completed": false,
-        "completedby": ""
-    },
-    "fileassignment": {
-        "fileassigned": true,
-        "assignedprocessor": "678",
-        "assignedreviewer": "678",
-        "completed": true,
-        "completedby": "Alice"
-    },
-    "dataentry": {
-        "appnumber": "78900",
-        "appstatus": "placard dreplacement",
-        "completed": true,
-        "completedby": "Alice"
-    },
-    "paymentstatus": {
-        "paymentreceived": false,
-        "completedby": ""
-    },
+  "applicationno": "019877",
+  "acn": "ACN-124510",
+  "companyname": "Sunbelt Rentals",
+  "appate": "02/20/2020",
+  "Isnewcompany": false,
+  "prescreening": {
+    "completed": true,
+    "completedby": "James",
+    "completedon": "02/12/2020"
+  },
+  "mailscreening": {
     "filestatus": "incomplete",
-    "stafflist": [
-        {
-        "staffname": "Jimmy",
-        "staffid": "678"
-        },
-        {
-        "staffname": "Ily",
-        "staffid": "987"
-        }
-    ],
-    "documentreview": [
-        {
-        "docid": "10",
-        "docname": "old placard"
-        },
-        {
-        "docid": "16",
-        "docname": "engine photo"
-        }
-    ],
-    "notes": [
-        {
-        "noteid": "3",
-        "notetext": "Placard has been added, please check",
-        "action": "placard replacement",
-        "createdon": "02/18/2020",
-        "sentTo": "Jimmy"
-        }
-     
-    ],
-    "Isissued": false,
-    "Isclosed": false
+    "completed": true,
+    "completedby": "John",
+    "completedon": "02/12/2020"
+  },
+  "billingdetails": {
+    "invoicenumber": "PID-0987788",
+    "amount": "290",
+    "invoicesent": false,
+    "completed": false,
+    "completedby": "",
+    "completedon": ""
+  },
+  "fileassignment": {
+    "fileassigned": true,
+    "assignedprocessor": "678",
+    "assignedreviewer": "678",
+    "completed": true,
+    "completedby": "Alice",
+    "completedon": "02/12/2020"
+  },
+  "dataentry": {
+    "appnumber": "78900",
+    "appstatus": "placard dreplacement",
+    "completed": true,
+    "completedby": "Alice",
+    "completedon": "02/12/2020"
+  },
+  "paymentstatus": {
+    "paymentreceived": false,
+    "completedby": "",
+    "completedon": ""
+  },
+  "stafflist": [
+    {
+      "staffname": "Jimmy",
+      "staffid": "678"
+    },
+    {
+      "staffname": "Ily",
+      "staffid": "987"
     }
+  ],
+  "documentreview": [
+    {
+      "docid": "10",
+      "docname": "old placard"
+    },
+    {
+      "docid": "16",
+      "docname": "engine photo"
+    }
+  ],
+  "notes": [
+    {
+      "noteid": "3",
+      "notetext": "Placard has been added, please check",
+      "action": "placard replacement",
+      "createdon": "02/18/2020",
+      "sentTo": "Jimmy"
+    }
+  ],
+  "issuancecheck": {
+    "completed": false,
+    "completedby": "",
+    "completedon": ""
+  },
+  "clouseout": {
+    "completed": false,
+    "completedby": "",
+    "completedon": ""
+  }
+}

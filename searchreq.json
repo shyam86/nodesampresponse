@@ -1,7 +1,7 @@
 {
     "fromDate":"02/18/2020",
     "toDate":"03/18/2020",
-    "appStatus": "Submitted",
+    "appStatus": "prescreening",
     "companyACN": "Sun Belt",
     "newCompany": false,
     "assignStatus": "yes"

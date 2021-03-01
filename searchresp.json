@@ -1,28 +1,102 @@
 {
   "FileRecords": [
     {
-      "sno": 1,
-      "fileno": 101,
-      "acn": "ACN-124573",
-      "companyName": "Sun Belt",
-      "appDate": "02/18/2020",
+      "sno": "1",
+      "fileno": 11,
+      "acn": "ACN-09879",
+      "companyname": "United Rentals",
+      "appDate": "02/06/2021",
+      "transactionno": "",
+      "status": "prescreening",
       "newCompany": false
     },
     {
-      "sno": 2,
+      "sno": "2",
+      "fileno": 12,
+      "acn": "ACN-09878",
+      "companyname": "Sunbelt Rentals",
+      "appDate": "02/02/2021",
+      "transactionno": "",
+      "status": "mailscreening",
+      "newCompany": false
+    },
+
+    {
+      "sno": "3",
+      "fileno": 13,
+      "acn": "ACN-20936",
+      "companyname": "RDO Vermer",
+      "appDate": "01/06/2021",
+      "transactionno": "",
+      "status": "mailscreening",
+      "newCompany": false
+    },
+    {
+      "sno": "4",
+      "fileno": 14,
+      "acn": "ACN-01936",
+      "companyname": "MoonShine Rentals",
+      "appDate": "01/16/2021",
+      "transactionno": "976637",
+      "status": "dataentry",
+      "newCompany": false
+    },
+    {
+      "sno": "5",
+      "fileno": 15,
+      "acn": "ACN-01936",
+      "companyname": "MoonShine Rentals",
+      "appDate": "01/16/2021",
+      "transactionno": "998987",
+      "status": "dataentry"
+    },
+    {
+      "sno": "6",
+      "fileno": 16,
+      "acn": "ACN-12936",
+      "companyname": "Penhall Company",
+      "appDate": "01/16/2021",
+      "transactionno": "096637",
+      "status": "paymentreview",
+      "newCompany": false
+    },
+    {
+      "sno": "7",
+      "fileno": 17,
+      "acn": "ACN-23936",
+      "companyname": "Robertson's",
+      "appDate": "01/10/2021",
+      "transactionno": "186637",
+      "status": "closeout",
+      "newCompany": false
+    },
+    {
+      "sno": "8",
+      "fileno": 18,
+      "acn": "ACN-12936",
+      "companyname": "Delta Air Lines, Inc.",
+      "appDate": "01/16/2021",
+      "transactionno": "198637",
+      "status": "billinginvoicing"
+    },
+    {
+      "sno": "9",
+      "fileno": 19,
+      "acn": "ACN-32936",
+      "companyname": "United Airlines, Inc.",
+      "appDate": "01/12/2021",
+      "transactionno": "186637",
+      "status": "billinginvoicing",
+      "newCompany": false
+    },
+    {
+      "sno": 10,
       "fileno": 102,
       "acn": null,
       "companyName": null,
       "appDate": "02/19/2020",
+      "status": "mailscreening",
       "newCompany": true
-    },
-    {
-      "sno": 3,
-      "fileno": 103,
-      "acn": "ACN-124510",
-      "companyName": "United Rentals",
-      "appDate": "02/20/2020",
-      "newCompany": false
     },
     {
       "sno": 4,
@@ -30,15 +104,8 @@
       "acn": null,
       "companyName": null,
       "appDate": "02/21/2020",
+      "status": "prescreening",
       "newCompany": true
-    },
-    {
-      "sno": 5,
-      "fileno": 105,
-      "acn": "ACN-124575",
-      "companyName": "American Airlines",
-      "appDate": "02/22/2020",
-      "newCompany": false
     }
   ]
 }

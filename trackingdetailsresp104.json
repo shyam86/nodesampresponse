@@ -1,77 +1,92 @@
 {
-    "acn": null,
-    "companyname": null,
-    "appate":"02/21/2020",
-    "Isnewcompany": true,
-    "prescreening": {
-        "completed": true,
-        "completedby": "James"
-    },
-    "mailscreening": {
-        "completed": true,
-        "completedby": "Bob"
-    },
-    "billingdetails": {
-        "invoicenumber": null,
-        "amount": "1090",
-        "invoicesent": false,
-        "completed": false,
-        "completedby": ""
-    },
-    "fileassignment": {
-        "fileassigned": true,
-        "assignedprocessor": "6979",
-        "assignedreviewer": "6098",
-        "completed": false,
-        "completedby": "Diana"
-    },
-    "dataentry": {
-        "appnumber": "78900",
-        "appstatus": "inital registration",
-        "completed": false,
-        "completedby": "Diana"
-    },
-    "paymentstatus": {
-        "paymentreceived": false,
-        "completedby": ""
-    },
+  "applicationno": "99877",
+  "acn": null,
+  "companyname": null,
+  "appate": "02/21/2020",
+  "Isnewcompany": true,
+  "prescreening": {
+    "completed": true,
+    "completedby": "James",
+    "completedon": "02/01/2020"
+  },
+  "mailscreening": {
     "filestatus": "incomplete",
-    "stafflist": [
-        {
-        "staffname": "Alex",
-        "staffid": "678"
-        },
-        {
-        "staffname": "Bon",
-        "staffid": "987"
-        }
-    ],
-    "documentreview": [
-        {
-        "docid": "10",
-        "docname": "initial registration"
-        },
-        {
-        "docid": "16",
-        "docname": "Company tax doc"
-        }
-    ],
-    "notes": [
-        {
-        "noteid": "3",
-        "notetext": "This is a new company",
-        "action": "initial registration",
-        "createdon": "02/18/2020",
-        "sentTo": "Jimmy"
-        },
-        {
-        "noteid": "4",
-        "notetext": "Get company invoice document from mail",
-        "action": "initial registration",
-        "createdon": "02/20/2020",
-        "sentTo": "Dave"
-        }
-    ],
-    "Isissued": false,
-    "Isclosed": false
+    "completed": true,
+    "completedby": "Bob",
+    "completedon": "02/18/2020"
+  },
+  "billingdetails": {
+    "invoicenumber": null,
+    "amount": "1090",
+    "invoicesent": false,
+    "completed": false,
+    "completedby": "",
+    "completedon": ""
+  },
+  "fileassignment": {
+    "fileassigned": true,
+    "assignedprocessor": "6979",
+    "assignedreviewer": "6098",
+    "completed": false,
+    "completedby": "Diana",
+    "completedon": ""
+  },
+  "dataentry": {
+    "appnumber": "78900",
+    "appstatus": "inital registration",
+    "completed": false,
+    "completedby": "Diana",
+    "completedon": ""
+  },
+  "paymentstatus": {
+    "paymentreceived": false,
+    "completedby": "",
+    "completedon": ""
+  },
+  "stafflist": [
+    {
+      "staffname": "Alex",
+      "staffid": "678"
+    },
+    {
+      "staffname": "Bon",
+      "staffid": "987"
     }
+  ],
+  "documentreview": [
+    {
+      "docid": "10",
+      "docname": "initial registration"
+    },
+    {
+      "docid": "16",
+      "docname": "Company tax doc"
+    }
+  ],
+  "notes": [
+    {
+      "noteid": "3",
+      "notetext": "This is a new company",
+      "action": "initial registration",
+      "createdon": "02/18/2020",
+      "sentTo": "Jimmy"
+    },
+    {
+      "noteid": "4",
+      "notetext": "Get company invoice document from mail",
+      "action": "initial registration",
+      "createdon": "02/20/2020",
+      "sentTo": "Dave"
+    }
+  ],
+  "issuancecheck": {
+    "completed": false,
+    "completedby": "",
+    "completedon": ""
+  },
+  "clouseout": {
+    "completed": false,
+    "completedby": "",
+    "completedon": ""
+  }
+}

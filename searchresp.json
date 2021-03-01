@@ -8,7 +8,8 @@
       "appDate": "02/06/2021",
       "transactionno": "",
       "status": "prescreening",
-      "newCompany": false
+      "newCompany": false,
+      "action":true
     },
     {
       "sno": "2",
@@ -18,7 +19,8 @@
       "appDate": "02/02/2021",
       "transactionno": "",
       "status": "mailscreening",
-      "newCompany": false
+      "newCompany": false,
+      "action":true
     },
 
     {
@@ -29,7 +31,8 @@
       "appDate": "01/06/2021",
       "transactionno": "",
       "status": "mailscreening",
-      "newCompany": false
+      "newCompany": false,
+      "action":true
     },
     {
       "sno": "4",
@@ -39,7 +42,8 @@
       "appDate": "01/16/2021",
       "transactionno": "976637",
       "status": "dataentry",
-      "newCompany": false
+      "newCompany": false,
+      "action":true
     },
     {
       "sno": "5",
@@ -48,7 +52,8 @@
       "companyname": "MoonShine Rentals",
       "appDate": "01/16/2021",
       "transactionno": "998987",
-      "status": "dataentry"
+      "status": "dataentry",
+      "action":true
     },
     {
       "sno": "6",
@@ -58,7 +63,8 @@
       "appDate": "01/16/2021",
       "transactionno": "096637",
       "status": "paymentreview",
-      "newCompany": false
+      "newCompany": false,
+      "action":true
     },
     {
       "sno": "7",
@@ -68,7 +74,8 @@
       "appDate": "01/10/2021",
       "transactionno": "186637",
       "status": "closeout",
-      "newCompany": false
+      "newCompany": false,
+      "action":true
     },
     {
       "sno": "8",
@@ -77,7 +84,9 @@
       "companyname": "Delta Air Lines, Inc.",
       "appDate": "01/16/2021",
       "transactionno": "198637",
-      "status": "billinginvoicing"
+      "status": "billinginvoicing",
+      "newCompany": false,
+      "action":true
     },
     {
       "sno": "9",
@@ -87,7 +96,8 @@
       "appDate": "01/12/2021",
       "transactionno": "186637",
       "status": "billinginvoicing",
-      "newCompany": false
+      "newCompany": false,
+      "action":true
     },
     {
       "sno": 10,
@@ -96,7 +106,8 @@
       "companyName": null,
       "appDate": "02/19/2020",
       "status": "mailscreening",
-      "newCompany": true
+      "newCompany": true,
+      "action":true
     },
     {
       "sno": 4,
@@ -105,7 +116,8 @@
       "companyName": null,
       "appDate": "02/21/2020",
       "status": "prescreening",
-      "newCompany": true
+      "newCompany": true,
+      "action":true
     }
   ]
 }

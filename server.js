@@ -37,18 +37,22 @@ console.log(trackingDetaisReq.fileno)
       trackingDetaisResp = JSON.parse(
         fs.readFileSync("trackingdetailsresp101.json")
       );
+      break;
     case "102":
       trackingDetaisResp = JSON.parse(
         fs.readFileSync("trackingdetailsresp102.json")
       );
+      break;
     case "103":
         trackingDetaisResp = JSON.parse(
           fs.readFileSync("trackingdetailsresp103.json")
         );
+        break;
     case "104":
         trackingDetaisResp = JSON.parse(
           fs.readFileSync("trackingdetailsresp104.json")
         );
+        break;
   }
   res.send(JSON.stringify(trackingDetaisResp));
 });

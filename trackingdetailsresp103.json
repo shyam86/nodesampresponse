@@ -3,6 +3,8 @@
   "acn": "ACN-124510",
   "companyname": "Sunbelt Rentals",
   "appate": "02/20/2020",
+  "transactionno": "",
+
   "Isnewcompany": false,
   "prescreening": {
     "completed": true,
@@ -33,6 +35,8 @@
   },
   "dataentry": {
     "appnumber": "78900",
+    "transactionno": "",
+
     "appstatus": "placard dreplacement",
     "completed": true,
     "completedby": "Alice",

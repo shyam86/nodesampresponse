@@ -53,6 +53,7 @@
       "appDate": "01/16/2021",
       "transactionno": "998987",
       "status": "dataentry",
+      "newCompany": false,
       "action":true
     },
     {

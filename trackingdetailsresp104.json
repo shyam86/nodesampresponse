@@ -4,6 +4,7 @@
   "companyname": null,
   "appate": "02/21/2020",
   "Isnewcompany": true,
+  "transactionno": "",
   "prescreening": {
     "completed": true,
     "completedby": "James",
@@ -33,6 +34,7 @@
   },
   "dataentry": {
     "appnumber": "78900",
+    "transactionno": "",
     "appstatus": "inital registration",
     "completed": false,
     "completedby": "Diana",
@@ -84,7 +86,7 @@
     "completedby": "",
     "completedon": ""
   },
-  "clouseout": {
+  "closeout": {
     "completed": false,
     "completedby": "",
     "completedon": ""

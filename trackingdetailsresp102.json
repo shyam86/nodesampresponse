@@ -71,14 +71,12 @@
     {
       "noteid": "3",
       "notetext": "This is a new company",
-      "action": "initial registration",
       "createdon": "02/18/2020",
       "sentTo": "Jimmy"
     },
     {
       "noteid": "4",
       "notetext": "Get company invoice document from mail",
-      "action": "initial registration",
       "createdon": "02/20/2020",
       "sentTo": "Dave"
     }
